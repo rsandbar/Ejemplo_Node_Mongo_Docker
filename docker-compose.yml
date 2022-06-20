@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  web:
+    container_name: exampleApp
+    restart: always
+    build: .
+    ports: 
+      - "5000:3000"
+    links: 
+      - databasemongo
+    volumes:
+      - .:/usr/src/app
+  databasemongo: 
+    container_name: myMongoDB
+    image: mongo
+    ports: 
+      - "27017:27017"
+
+    
+    
