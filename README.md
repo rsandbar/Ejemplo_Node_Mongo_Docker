@@ -1,5 +1,7 @@
 # Ejemplo_Node_Mongo_Docker
 Proyecto creado para la evaluación del Bootcamp Tecnologías para el desarrollo web
+Alumno: Richard Sandoval Barrientos
+Fecha y hora máxima de entrega: 20/06/2022 - 23:59h CET 
 
 Pregunta 1
 Se hizo la instalación de Visual Studio Code. Se adjunta una imagen del IDE en la carpeta Imgs: archivo VSC.png
@@ -34,6 +36,7 @@ docker-compose.yml => Este archivo sirve para definir y ejecutar aplicaciones de
 
 Pregunta 7
 La URL del repo público es https://github.com/rsandbar/Ejemplo_Node_Mongo_Docker
-
+  7a. Se creó la rama dev para documentar los cambios que se hacen en el proyecto.
+  7b. Se realizó el Pull Request solicitado y se deja la rama dev para ser validado
 
 
