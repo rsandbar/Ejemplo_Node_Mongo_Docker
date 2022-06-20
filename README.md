@@ -43,7 +43,9 @@ docker-compose.yml => Este archivo sirve para definir y ejecutar aplicaciones de
 Pregunta 7
 
 La URL del repo público es https://github.com/rsandbar/Ejemplo_Node_Mongo_Docker
+
   7a. Se creó la rama dev para documentar los cambios que se hacen en el proyecto.
+
   7b. Se realizó el Pull Request solicitado y se deja la rama dev para ser validado
 
 
