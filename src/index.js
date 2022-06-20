@@ -53,6 +53,7 @@ const filtroporGrupo = async () =>
 //filtroporId();
 //filtroporGrupo();
 
+// Para corregir error
 const getCircularReplacer = () => {
     const seen = new WeakSet();
     return (key, value) => {
