@@ -4,22 +4,27 @@ Alumno: Richard Sandoval Barrientos
 Fecha y hora máxima de entrega: 20/06/2022 - 23:59h CET 
 
 Pregunta 1
+
 Se hizo la instalación de Visual Studio Code. Se adjunta una imagen del IDE en la carpeta Imgs: archivo VSC.png
 
 Pregunta 2
+
 Se creó el perfil rsandbar
 
 Pregunta 3
-Se creo el repo personal Ejemplo_Node_Mongo_Docker con perfil público. La URL es https://github.com/rsandbar/Ejemplo_Node_Mongo_Docker
+
+Se creó el repo personal Ejemplo_Node_Mongo_Docker con perfil público. La URL es https://github.com/rsandbar/Ejemplo_Node_Mongo_Docker
 
 Pregunta 4
-Se creo la imagen de mongoDB en un contenedor de Docker. 
+
+Se creó la imagen de mongoDB en un contenedor de Docker. 
 Para la persistencia, ejecuté el siguiente comando:
 docker run -d -p 27018:27018 --name MongoData -v mongo-data:/data/db mongo
 
-Se creo la base de datos FullStack y la colección sinadefs. Para los puntos a y b, descargué el archivo csv del Sistema Nacional de Defunciones del Perú, obtenido de la página de datos abiertos del gobierno del Perú. Se cargaron 530 documentos. El archivo csv lo encontrará en la carpeta Datos con el nombre fallecidos_sinadef_final_muestra.csv.
+Se creó la base de datos FullStack y la colección sinadefs. Para los puntos a y b, descargué el archivo csv del Sistema Nacional de Defunciones del Perú, obtenido de la página de datos abiertos del gobierno del Perú. Se cargaron 530 documentos. El archivo csv lo encontrará en la carpeta Datos con el nombre fallecidos_sinadef_final_muestra.csv.
 
 Pregunta 5
+
 Se creó la API que contiene los siguientes archivos/carpetas:
 src: Carpeta principal que contiene los archivos:
 database.js => Usé mongoose para poder conectarme a la base de datos Fullstack (Pregunta 5a)
@@ -30,11 +35,13 @@ index.routes.js => archivo creado para comprobar que la API trabaja correctament
 
 
 Pregunta 6
+
 Se dockerizó tanto la API como la base de datos en un solo contenedor. Para ello se definieron los archivos:
 dockerfile => En este archivo se definen que comandos ejecuté para la configuración de la imagen de node (versión, creación de carpeta con la API, directorio de trabajo, el puerto habilitado, etc.)
 docker-compose.yml => Este archivo sirve para definir y ejecutar aplicaciones de Docker de varios contenedores. En este caso, el docker para la API y el docker para la base de datos. Se definieron los servicios, contenedores, puertos, links, volúmenes e imágenes con las que trabajan dichos contenedores.
 
 Pregunta 7
+
 La URL del repo público es https://github.com/rsandbar/Ejemplo_Node_Mongo_Docker
   7a. Se creó la rama dev para documentar los cambios que se hacen en el proyecto.
   7b. Se realizó el Pull Request solicitado y se deja la rama dev para ser validado
