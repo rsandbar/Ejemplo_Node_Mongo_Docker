@@ -3,7 +3,7 @@ const router = Router()
 
 router.get('/', (req, res) =>
 {
-    res.send('La API está trabajando...');
+    res.send('La API está trabajando correctamente...');
 });
 
 
