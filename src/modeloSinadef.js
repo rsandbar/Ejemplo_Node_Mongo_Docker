@@ -2,7 +2,6 @@ const mongoose = require('mongoose')
 
 const SinadefSchema = new mongoose.Schema(
     {
-        _id:{type:String},
         Id:{type:Number},
         TIPO_SEGURO:{type:String},
         SEXO:{type:String},
