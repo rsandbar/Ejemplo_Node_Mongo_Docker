@@ -30,6 +30,10 @@ index.routes.js => archivo creado para comprobar que la API trabaja correctament
 Pregunta 6
 Se dockerizó tanto la API como la base de datos en un solo contenedor. Para ello se definieron los archivos:
 dockerfile => En este archivo se definen que comandos ejecuté para la configuración de la imagen de node (versión, creación de carpeta con la API, directorio de trabajo, el puerto habilitado, etc.)
-docker-compose.yml => Este archivo sirve para 
+docker-compose.yml => Este archivo sirve para definir y ejecutar aplicaciones de Docker de varios contenedores. En este caso, el docker para la API y el docker para la base de datos. Se definieron los servicios, contenedores, puertos, links, volúmenes e imágenes con las que trabajan dichos contenedores.
+
+Pregunta 7
+La URL del repo público es https://github.com/rsandbar/Ejemplo_Node_Mongo_Docker
+
 
 
